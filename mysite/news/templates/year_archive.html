@@ -1,9 +1,10 @@
-
+{% extends "base.html" %}
 
 {% block title %}Articles for {{ year }}{% endblock %}
 
 {% block content %}
-<h1><div style="color:#1f32db;font:16px;">Article for {{ year }}</div></h1>
+<h1><div style="color:#1f32db;font:16px;">Article
+     for {{ year }}</div></h1>
 
 {% for article in article_list %}
     <p>{{ article.headline }}</p>
