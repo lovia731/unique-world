@@ -328,5 +328,5 @@ git config --global user.name "lovia731"
 （2）公共密钥设置成了私人密钥
 解决：删除私人密钥，在仓库中重新设置一个公共密钥
 
-(3)出了太多太多问题了...很多没能及时记录下来
-解决：找老师求助Q.Q
+(3)报错"invalid non-printable character U+00A0 (<unknown>, line 1)"
+解决：上网搜索报错含义，发现是异常空格问题，于是把空格重新打了一遍，然后就成功运行了。
